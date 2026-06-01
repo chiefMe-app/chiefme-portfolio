@@ -9,27 +9,76 @@
     h1 { color: #9f67f7; margin-bottom: 0.5rem; }
     h2 { color: #c4a7fb; margin-top: 2rem; }
     p { color: #8b8aab; margin-bottom: 1rem; }
+    ul { color: #8b8aab; padding-left: 1.4rem; margin-bottom: 1rem; }
+    ul li { margin-bottom: 0.4rem; }
     a { color: #9f67f7; }
+    strong { color: #c4b5fb; }
   </style>
 </head>
 <body>
   <h1>Privacy Policy</h1>
-  <p>Last updated: May 2026</p>
+  <p>Last updated: June 2026</p>
 
-  <h2>What We Collect</h2>
-  <p>ChiefMe collects your email address for login and Google Calendar access tokens to enable meeting scheduling on your behalf.</p>
+  <h2>1. Introduction</h2>
+  <p>ChiefMe ("we", "our", or "us") is an AI-powered executive assistant that helps you schedule meetings, triage email, and manage daily tasks through a chat interface. This Privacy Policy explains what data we collect, how we use it, and your rights.</p>
 
-  <h2>How We Use It</h2>
-  <p>Your data is used solely to provide the ChiefMe service — scheduling meetings, managing your calendar, and related tasks. We do not sell, share, or use your data for advertising.</p>
+  <h2>2. What We Collect</h2>
+  <ul>
+    <li><strong>Full name</strong> — collected during registration to personalise your experience.</li>
+    <li><strong>Email address</strong> — collected when you sign in via Google OAuth, used to identify your account.</li>
+    <li><strong>Phone number (WhatsApp)</strong> — collected when you connect via WhatsApp, used to send and receive messages through the assistant.</li>
+    <li><strong>Google Calendar access tokens</strong> — collected when you connect your Google Calendar. Used only to read your calendar and create or update events on your behalf.</li>
+    <li><strong>Company name</strong> — collected if you use team features, used to group team members and generate a shared invite link.</li>
+    <li><strong>Chat messages</strong> — the text and voice messages you send to ChiefMe, used to process your requests in real time.</li>
+    <li><strong>Usage metadata</strong> — basic request logs (timestamps, error codes) used for debugging and service reliability. No content is stored in these logs.</li>
+  </ul>
+  <p>We do <strong>not</strong> collect payment information, contact lists, email body content, or any data beyond what is necessary to fulfil your requests.</p>
 
-  <h2>Data Storage</h2>
-  <p>Access tokens are stored securely in Supabase and are only used to interact with your Google Calendar.</p>
+  <h2>3. How We Use Your Data</h2>
+  <ul>
+    <li>To authenticate you and maintain your session.</li>
+    <li>To schedule, update, and retrieve calendar events when you ask ChiefMe to do so.</li>
+    <li>To process your text and voice messages and return a relevant AI-generated response.</li>
+    <li>To improve reliability and fix bugs (using anonymised logs).</li>
+  </ul>
+  <p>We do <strong>not</strong> use your data to train AI models, run advertising, or any purpose beyond operating the ChiefMe service.</p>
 
-  <h2>Your Rights</h2>
-  <p>You can delete your account and all associated data at any time by contacting us.</p>
+  <h2>4. Data Storage &amp; Security</h2>
+  <p>Your data is stored securely on Supabase, hosted on AWS infrastructure. We do not sell, share, or transfer your personal data to third parties. All data transfers are encrypted using TLS.</p>
+  <p>We implement industry-standard security measures including encrypted connections (HTTPS/TLS), token-based authentication, and restricted database access. No method of transmission or storage is 100% secure; we cannot guarantee absolute security.</p>
 
-  <h2>Contact</h2>
-  <p>For any privacy-related questions: <a href="mailto:chiefme.app@gmail.com">chiefme.app@gmail.com</a></p>
+  <h2>5. Data Sharing</h2>
+  <p>We do <strong>not</strong> sell, rent, or share your personal data with third parties for commercial purposes. Data is shared only with the infrastructure providers that run the service:</p>
+  <ul>
+    <li><strong>Supabase</strong> — database and authentication (EU/US regions).</li>
+    <li><strong>OpenAI</strong> — processes your messages to generate AI responses. OpenAI's data use is governed by their API data policies.</li>
+    <li><strong>Google</strong> — calendar access via Google Calendar API.</li>
+  </ul>
+
+  <h2>6. Data Retention</h2>
+  <p>Your data is retained as long as your account is active. Upon account deletion or written request, all personal data will be permanently deleted within 30 days. Chat message history is not persistently stored beyond the duration of a session.</p>
+
+  <h2>7. Cookies</h2>
+  <p>ChiefMe uses only essential session cookies required for authentication. We do not use tracking or advertising cookies.</p>
+
+  <h2>8. Your Rights</h2>
+  <p>Depending on your location, you may have rights under GDPR, CCPA, or similar laws, including:</p>
+  <ul>
+    <li><strong>Right to access</strong> — request a copy of the personal data we hold about you.</li>
+    <li><strong>Right to correct</strong> — request correction of inaccurate or incomplete data.</li>
+    <li><strong>Right to delete</strong> — request permanent deletion of your personal data.</li>
+    <li><strong>Right to data portability</strong> — receive your data in a structured, machine-readable format.</li>
+  </ul>
+  <p>To exercise any of these rights, contact us at <a href="mailto:chiefme.app@gmail.com">chiefme.app@gmail.com</a>.</p>
+
+  <h2>9. Children's Privacy</h2>
+  <p>ChiefMe is not directed at anyone under the age of 16. We do not knowingly collect data from minors. If you believe a minor has provided us data, please contact us and we will delete it promptly.</p>
+
+  <h2>10. Changes to This Policy</h2>
+  <p>We may update this Privacy Policy from time to time. We will notify users of significant changes by updating the "Last updated" date above. Continued use of ChiefMe after changes constitutes acceptance of the revised policy.</p>
+
+  <h2>11. Contact</h2>
+  <p>For any privacy-related questions or requests, contact us at: <a href="mailto:chiefme.app@gmail.com">chiefme.app@gmail.com</a></p>
 
   <p><a href="https://chiefme.app">← Back to ChiefMe</a></p>
 </body>
